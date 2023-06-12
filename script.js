@@ -21,7 +21,7 @@ function myFunction() {
     console.log(currentVal);
     ABC =  `"https://www.omdbapi.com/?t=${currentVal}&apikey=cf60bf6d"`
     console.log(ABC);
-    localStorage.setItem("currentVal1", currentVal);
+    localStorage.setItem("currentVal1", x);
     getapi();
 
 
