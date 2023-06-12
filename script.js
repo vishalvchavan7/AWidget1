@@ -7,6 +7,8 @@
 const queryString = window.location.search;
 const parameters = new URLSearchParams(queryString);
 const value = parameters.get('name');
+localStorage.setItem("currentVal1", value);
+    getapi();
 ///////////////////////////////////////////////////////////////////////////////
 
 function myFunction() {
