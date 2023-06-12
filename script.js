@@ -13,8 +13,8 @@ function myFunction() {
   
     //var x = document.getElementById("mySearch");
     var x = value
-    var defaultVal = x.defaultVal;
-    currentVal = x.value;
+    //var defaultVal = x.defaultVal;
+    currentVal = x;
     console.log(currentVal);
     ABC =  `"https://www.omdbapi.com/?t=${currentVal}&apikey=cf60bf6d"`
     console.log(ABC);
