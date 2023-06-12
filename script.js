@@ -16,10 +16,10 @@ function myFunction() {
     var x = document.getElementById("mySearch");
      console.log(x);
     //var x = value
-    var defaultVal = x.defaultVal;
-    var currentVal = defaultVal;
-    console.log(currentVal);
-    ABC =  `"https://www.omdbapi.com/?t=${currentVal}&apikey=cf60bf6d"`
+    //var defaultVal = x.defaultVal;
+    //var currentVal = defaultVal;
+    //console.log(currentVal);
+    ABC =  `"https://www.omdbapi.com/?t=${x}&apikey=cf60bf6d"`
     console.log(ABC);
     localStorage.setItem("currentVal1", x);
     getapi();
