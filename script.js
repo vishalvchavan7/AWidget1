@@ -14,8 +14,8 @@ localStorage.setItem("currentVal1", value);
 function myFunction() {
   
     var x = document.getElementById("mySearch");
-     console.log(x);
-    //var x = value
+     console.log(x.value);
+    var x = x.value
     //var defaultVal = x.defaultVal;
     //var currentVal = defaultVal;
     //console.log(currentVal);
