@@ -12,7 +12,7 @@ function myFunction() {
     var defaultVal = x.defaultVal;
     currentVal = x.value;
     console.log(currentVal);
-    ABC =  `"http://www.omdbapi.com/?t=${currentVal}&apikey=cf60bf6d"`
+    ABC =  `"https://www.omdbapi.com/?t=${currentVal}&apikey=cf60bf6d"`
     console.log(ABC);
     localStorage.setItem("currentVal1", currentVal);
     getapi();
@@ -24,7 +24,7 @@ function myFunction() {
 async function getapi() {
     var x = localStorage.getItem("currentVal1");
     var api_url = 
-"http://www.omdbapi.com/?t="+x+"&apikey=cf60bf6d";
+"https://www.omdbapi.com/?t="+x+"&apikey=cf60bf6d";
     var x = localStorage.getItem("mytime");
 	// Storing response
 	const response = await fetch(api_url);
