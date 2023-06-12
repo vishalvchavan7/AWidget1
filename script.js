@@ -12,7 +12,8 @@ const value = parameters.get('name');
 
 function myFunction() {
   
-    var x = document.getElementById("mySearch");
+    //var x = document.getElementById("mySearch");
+    var x = value
     var defaultVal = x.defaultVal;
     currentVal = x.value;
     console.log(currentVal);
