@@ -4,7 +4,6 @@
 //GENRE
 // let defaultVal;
 ///////////////////////////////////////////////////////////////////////////////
-type="text/javascript">
 const queryString = window.location.search;
 const parameters = new URLSearchParams(queryString);
 const value = parameters.get('name');
